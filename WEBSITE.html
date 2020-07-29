@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="WEBSITE.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="hero">
+      <div class="nav-bar">
+        <div class="nav-logo">
+          <img src="C:\Users\AJEET\Desktop\ANIMATION\logo (2).jpg" alt="">
+        </div>
+        <div class="nav-links" id="nav-links">
+          <i class="fa fa-close" onclick="closeMenu()"></i>
+          <ul>
+            <a href="#"><li>HOME</li></a>
+            <a href="#"><li>ABOUT</li></a>
+            <a href="#"><li>ANIMATIONS</li></a>
+          </ul>
+          <button type="button" class="btn" name="button">SINGN UP</button>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </div>
+      <div class="title">
+        <h1>Welcome to <br><span>Ultra_Animation</span></h1>
+        <button type="button" class="btn" name="button">Explore</button>
+      </div>
+        <div class="bar">
+          <div class="search-icon">
+            <i class="fa fa-th-list" aria-hidden="true"></i>
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </div>
+          <div class="social-icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-pinterest"></i>
+          </div>
+        </div>
+        <div class="notifications">
+          <div class="contents">
+            <small>You can find the animations and thier codes. I hope you will like this website </small>
+            <p><a href="">PREV</a><a href="">NEXT</a></p>
+          </div>
+          <div class="notification-img">
+            <img src="C:\Users\AJEET\Desktop\ANIMATION\noti.jpg" alt="">
+          </div>
+        </div>
+    </div>
+    <script>
+      var show = document.getElementById("nav-links");
+          function showMenu(){
+            show.style.right = "0"
+          }
+          function closeMenu(){
+            show.style.right = "-200px"
+          }
+    </script>
+  </body>
+</html>
